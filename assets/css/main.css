@@ -3511,12 +3511,6 @@ input, select, textarea {
 				text-decoration: none;
 			}
 
-			.nav-bar div a:hover{
-				background-color: Silver;
-				color: black;
-			}
-
-
 		@media screen and (max-width: 1680px) {
 
 			.banner.style1 .content {
