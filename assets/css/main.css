@@ -3492,7 +3492,7 @@ input, select, textarea {
 				padding-bottom: 10px;
    				padding-top: 10px;
 				border-bottom: 1px solid black;
-				background: lightgray;	
+				background: Gainsboro;	
 				position: fixed;
 				width: 100%;	
 				z-index: 999999;
@@ -3509,6 +3509,11 @@ input, select, textarea {
 			.nav-bar div a{
 				padding: 13px;
 				text-decoration: none;
+			}
+
+			.nav-bar div a:hover{
+				background-color: Silver;
+				color: black;
 			}
 
 
