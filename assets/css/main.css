@@ -3454,6 +3454,7 @@ input, select, textarea {
 			width: 50%;
 			max-width: 48rem;
 			margin: 0 auto;
+			text-align: center;
 		}
 
 		.banner.style1 .image {
@@ -3486,6 +3487,30 @@ input, select, textarea {
 				height: 100%;
 				border-radius: 0;
 			}
+
+			.nav-bar {
+				padding-bottom: 10px;
+   				padding-top: 10px;
+				border-bottom: 1px solid black;
+				background: lightgray;	
+				position: fixed;
+				width: 100%;	
+				z-index: 999999;
+			}
+
+			.nav-bar div {
+				display: inline;
+			}
+
+			.contact-nav {
+				float: right;
+			}
+
+			.nav-bar div a{
+				padding: 13px;
+				text-decoration: none;
+			}
+
 
 		@media screen and (max-width: 1680px) {
 
