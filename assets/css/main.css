@@ -3543,6 +3543,7 @@ input, select, textarea {
 
 			.projects-section {
 				text-align: center;
+				padding: 2rem 4rem 1rem 4rem;
 			}
 
 		@media screen and (max-width: 1680px) {
@@ -3613,7 +3614,7 @@ input, select, textarea {
 		}
 
 		.banner.style1.fullscreen {
-			min-height: 100vh;
+			min-height: 85vh;
 		}
 
 			@media screen and (orientation: portrait) {
@@ -7253,7 +7254,7 @@ input, select, textarea {
 	}
 
 		.wrapper.style1 > .inner.medium {
-			width: 48rem;
+			width: 28rem;
 		}
 
 		.wrapper.style1 > .inner.small {
@@ -7271,7 +7272,7 @@ input, select, textarea {
 	@media screen and (max-width: 1280px) {
 
 		.wrapper.style1 > .inner {
-			padding: 4rem 4rem 2rem 4rem ;
+			padding: 2rem 4rem 2rem 4rem ;
 		}
 
 	}
@@ -8636,4 +8637,14 @@ input, select, textarea {
 
 		.footer-properties {
 			background-color: GhostWhite
+		}
+
+		section div.inner.medium.contact-properties {
+			display: flex;
+			justify-content: space-around;
+			padding-top: 2rem;
+		}
+
+		section div form {
+			width: 23rem;
 		}
