@@ -3434,6 +3434,10 @@ input, select, textarea {
 
 /* Banner (style1) */
 
+	html {
+		background-color: gray;
+	}
+
 	.banner.style1 {
 		-moz-align-items: -moz-stretch;
 		-webkit-align-items: -webkit-stretch;
@@ -3507,14 +3511,21 @@ input, select, textarea {
 				border-radius: 0;
 			}
 
+			.body-properties {
+				margin: auto 10%;
+			}
+
 			.nav-bar {
 				padding-bottom: 10px;
    				padding-top: 10px;
 				border-bottom: 1px solid black;
 				background: GhostWhite;	
 				position: fixed;
-				width: 100%;	
+				width: 80%;	
 				z-index: 999999;
+				border-right: 1px solid black;
+				border-left: 1px solid black;
+				border-color: rgba(0, 0, 0, 0.2);
 			}
 
 			.nav-bar div {
@@ -8273,7 +8284,6 @@ input, select, textarea {
 
 	#wrapper {
 		background-color: inherit;
-		width: 100%;
 		overflow-x: hidden;
 	}
 
@@ -8623,3 +8633,7 @@ input, select, textarea {
 			#wrapper.divided > .invert:first-child {
 				box-shadow: none !important;
 			}
+
+		.footer-properties {
+			background-color: GhostWhite
+		}
