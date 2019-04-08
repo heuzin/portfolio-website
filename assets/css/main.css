@@ -8648,3 +8648,7 @@ input, select, textarea {
 		section div form {
 			width: 23rem;
 		}
+
+		section div.inner.medium.contact-properties .contact-address {
+			text-align: left;
+		}
