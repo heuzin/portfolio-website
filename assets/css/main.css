@@ -151,6 +151,25 @@ input, select, textarea {
 
 		}
 
+	#page-1 {
+		position: relative;
+		overflow: hidden;
+	}
+
+	#page-1 div.content h1 {
+		position: relative;
+		z-index: 2;
+	}
+
+	#page-1 div.content img {
+		position: absolute;
+		left: 0;
+		top: 0;
+		width: auto;
+		height: auto;
+		opacity: 0.22;
+	}
+
 	body {
 		background-color: #ffffff;
 		color: #000000;
